@@ -11,26 +11,44 @@
   }
   
    .book {
-    border-radius: 15px;
+    border-radius: 5px;
     width: 300px;
-    height: 350px;
+    height: 400px;
     margin: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
   }
   
   .book img {
     width: 250px;
-    height: 400px;
+    height: 350px;
   }
   
   .book .description {
     text-align: center;
   }
   
-  .book:hover {
+  /* .book:hover {
     transition: 0.3s ease-in;
+    cursor: pointer;
+  } */
+
+  .addToCartBtn {
+    background-color: transparent;
+    border: 2px solid rgb(232, 10, 10);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBtn:hover {
+    background-color: rgb(232,10,10);
+    color: white;
     cursor: pointer;
   }
