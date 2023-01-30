@@ -1,0 +1,36 @@
+.shopTitle {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .books {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+   .book {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book img {
+    width: 250px;
+    height: 400px;
+  }
+  
+  .book .description {
+    text-align: center;
+  }
+  
+  .book:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
