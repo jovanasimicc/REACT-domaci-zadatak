@@ -31,6 +31,11 @@ export const About = () => {
 
         <section className="about1">
             <div className="row1">
+
+            <div className="about-img1">
+                <img src={image2} alt="aboutImage2"></img>
+                </div>
+
                 <div className="about-col1">
                 <h3>Misija i vizija</h3>
                 <p>Misija nam je da naše knjige postanu sinonim za kvalitet i uživanje. <br /> 
@@ -44,9 +49,7 @@ export const About = () => {
                 pridružite nam se na putu ka sreći!</p> 
                 </div>
 
-                <div className="about-img1">
-                <img src={image2} alt="aboutImage2"></img>
-                </div>
+                
             </div>
         </section>
     </div>

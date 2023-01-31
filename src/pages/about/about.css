@@ -37,7 +37,7 @@ text-align: left;
 .about1 img{
     width: 80%;
     height: 80%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 15%;
     border-radius: 15px;
     box-shadow: rgb(232, 10, 10);
