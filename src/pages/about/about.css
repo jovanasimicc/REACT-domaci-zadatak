@@ -1,0 +1,44 @@
+.about{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.about1{
+    margin-left: 80px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.about-col{
+text-align: left;
+}
+
+.about-col1{
+    text-align: left;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1{
+    display: flex;
+}
+
+.about img{
+    width: 110%;
+    margin-top: 30%;
+    border-radius: 15px;
+    box-shadow: rgb(232, 10, 10);
+}
+
+.about1 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: rgb(232, 10, 10);
+}
