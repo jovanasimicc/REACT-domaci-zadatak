@@ -48,3 +48,20 @@
     color: white;
     cursor: pointer;
   }
+
+.searchBtn {
+  background-color: transparent;
+  border: 2px solid rgb(232, 10, 10);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.searchBtn:hover {
+  background-color: rgb(232,10,10);
+  color: white;
+  cursor: pointer;
+}
