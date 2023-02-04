@@ -1,0 +1,37 @@
+.all-footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(230, 20, 20);
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .footer-row{
+    display: flex;
+    justify-content: space-around;
+  }
+
+.footer-column{
+    margin-right: 50px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.copyright{
+    color: white;
+    font-size: 20px;
+}
+
+.btnPrijaviSe{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: rgb(232, 10, 10);
+    border: none;
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}

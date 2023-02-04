@@ -8,7 +8,7 @@ export const Book = (props) => {
     const cartItemAmount = cartItems[id];
 
     return <div className="book">
-        <img src={bookImage} />
+        <img src={bookImage} alt="slika"/>
         
         <div className="description">
             <p><b>{bookName}</b></p>

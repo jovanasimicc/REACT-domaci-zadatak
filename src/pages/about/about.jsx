@@ -5,7 +5,7 @@ import "./about.css"
 
 export const About = () => {
     return (
-    <div className="all">
+    <div className="all-about">
         <h1>Dobro došli!</h1>
         
         <section className="about">
@@ -31,9 +31,8 @@ export const About = () => {
 
         <section className="about1">
             <div className="row1">
-
-            <div className="about-img1">
-                <img src={image2} alt="aboutImage2"></img>
+                <div className="about-img1">
+                    <img src={image2} alt="aboutImage2"></img>
                 </div>
 
                 <div className="about-col1">
@@ -48,12 +47,9 @@ export const About = () => {
                 raditi na tome i pomerati sopstvene granice. Pozivamo vas da postanete deo našeg sveta <br /> i 
                 pridružite nam se na putu ka sreći!</p> 
                 </div>
-
-                
             </div>
         </section>
     </div>
-
    )
 }
 

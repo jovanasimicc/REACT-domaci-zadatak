@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar";
+import {Footer} from "./components/footer";
 import {Shop} from "./pages/shop/shop";
 import {Cart} from "./pages/cart/cart";
 import {Contact} from "./pages/contact/contact";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/search" element={<Search/>} />
           </Routes>
+          <Footer/>
         </Router>
       </ShopContextProvider>
 

@@ -13,21 +13,19 @@ export const Shop = () => {
     navigate(path);
   }
 
-    return (
+  return (
     <div className="shop">
-        <div className="shopTitle">
-            <h1>Knjige</h1>
-        </div>
+      <div className="shopTitle">
+        <h1>Knjige</h1>
+      </div>
 
-        <button className="searchBtn" onClick={routeChange}>Pretražite naslove</button>
+      <button className="searchBtn" onClick={routeChange}>Pretražite naslove</button>
         
-
-    <div className="books">
-            {BOOKS.map((book) =>(
-                <Book data={book} />
-            ))}
-
-        </div>
-        </div>
-   );
+      <div className="books">
+        {BOOKS.map((book) =>(
+        <Book data={book} />
+        ))}
+      </div>
+    </div>
+  );
 };
